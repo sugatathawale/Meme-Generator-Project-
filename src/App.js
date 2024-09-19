@@ -2,8 +2,8 @@ import './App.css';
 import Navbar from "./components/Navbar.js"
 import Form from "./components/Form.js"
 import Footer from "./components/Footer.js"
-import DownloadButton from './components/DownloadButton.js';
-import HeartButton from './components/LikeBtn.js';
+// import DownloadButton from './components/DownloadButton.js';
+// import HeartButton from './components/LikeBtn.js';
 
 
 function App() {

@@ -69,8 +69,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
-
-export const username = "sugat__17" //your imgflip username
+export const username = "sugat\_\_17" //your imgflip username
 export const password = "sugat1718" //your imgflip password# Meme-Generator
+
+
+
+
+
+
+
+
+
+
+////Completed Features
+1} Meme Selection:
+Fetches memes from the Imgflip API and stores them in the state (allMemes).
+
+2}Random Meme Generation:
+Provides a "Get random meme" button that, when clicked, selects a random meme from the fetched memes and updates the form with its details (URL, ID, box count).
+
+3}Dynamic Text Input:
+Based on the selected meme template, the appropriate number of text input fields are displayed (up to 5).
+dynamically text box are availabe for that meme
+
+4}Text Placement on Meme:
+Sends a request to the Imgflip API to place the user's input text on the selected meme template using the setMemeText function.
+
+5}Input Validation:
+Disables the "Put text on meme" button if no text is provided in the input fields, ensuring that at least one text box is filled before the API request is made.
+
+6}Meme Image Display:
+Displays the selected or generated meme in an image container, updating dynamically as the user selects or generates new memes.
+
+
+//////Features i want to add
+
+1}Add Login Form:
+2}Add Download button 
